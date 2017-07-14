@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3C003FDD1F18F84E007DFB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FDC1F18F84E007DFB6D /* AppDelegate.swift */; };
-		3C003FDF1F18F84E007DFB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FDE1F18F84E007DFB6D /* ViewController.swift */; };
 		3C003FE21F18F84E007DFB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C003FE01F18F84E007DFB6D /* Main.storyboard */; };
 		3C003FE51F18F84E007DFB6D /* ColorsTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FE31F18F84E007DFB6D /* ColorsTableView.xcdatamodeld */; };
 		3C003FE71F18F84E007DFB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C003FE61F18F84E007DFB6D /* Assets.xcassets */; };
 		3C003FEA1F18F84E007DFB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C003FE81F18F84E007DFB6D /* LaunchScreen.storyboard */; };
 		3C003FF51F18F84F007DFB6D /* ColorsTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FF41F18F84F007DFB6D /* ColorsTableViewTests.swift */; };
 		3C0040001F18F84F007DFB6D /* ColorsTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C003FFF1F18F84F007DFB6D /* ColorsTableViewUITests.swift */; };
+		3C00400E1F18F8CE007DFB6D /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		3C003FD91F18F84E007DFB6D /* ColorsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C003FDC1F18F84E007DFB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C003FDE1F18F84E007DFB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C003FE11F18F84E007DFB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C003FE41F18F84E007DFB6D /* ColorsTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorsTableView.xcdatamodel; sourceTree = "<group>"; };
 		3C003FE61F18F84E007DFB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		3C003FFB1F18F84F007DFB6D /* ColorsTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C003FFF1F18F84F007DFB6D /* ColorsTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewUITests.swift; sourceTree = "<group>"; };
 		3C0040011F18F84F007DFB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3C003FDC1F18F84E007DFB6D /* AppDelegate.swift */,
-				3C003FDE1F18F84E007DFB6D /* ViewController.swift */,
+				3C00400D1F18F8CE007DFB6D /* ColorsViewController.swift */,
 				3C003FE01F18F84E007DFB6D /* Main.storyboard */,
 				3C003FE61F18F84E007DFB6D /* Assets.xcassets */,
 				3C003FE81F18F84E007DFB6D /* LaunchScreen.storyboard */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C003FDF1F18F84E007DFB6D /* ViewController.swift in Sources */,
 				3C003FDD1F18F84E007DFB6D /* AppDelegate.swift in Sources */,
+				3C00400E1F18F8CE007DFB6D /* ColorsViewController.swift in Sources */,
 				3C003FE51F18F84E007DFB6D /* ColorsTableView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
